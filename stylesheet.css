@@ -1,0 +1,367 @@
+/* GENERAL ----------*/
+
+* {
+	box-sizing: border-box;
+}
+
+section {
+  padding-top: 3.75em;
+  padding-bottom: 3.75em;
+}
+
+p {
+  padding-top: 0.3125em;
+  padding-left: 3%;
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 135%;
+  color: #555;
+}
+
+.pillow {
+  padding-top: 1.25em;
+  padding-bottom: 0em;
+  padding-left: 3%;
+}
+
+h1 {
+  text-transform: uppercase;
+  color: #000;
+}
+
+.headerstyle {
+  font-family: "Raleway", sans-serif;  
+}
+
+.line {
+  max-width: 400px;
+  height: 3px;
+  color: #000;
+  border-top: solid 3px;
+  border-bottom: solid 3px;
+}
+
+/* section elements */
+#about {
+  padding-top: 9.375em;
+  padding-bottom: 6.25em;
+  background: #F5FFFA;
+}
+
+#portfolio {
+  padding-top: 3.125em;
+  padding-bottom: 3.125em;
+}
+
+#contact {
+  background-image: url('http://i1074.photobucket.com/albums/w401/thenunnnery/floralbg_zps4lgtkyc3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.col {
+	padding-right: 1em;
+	padding-left: 1em;
+}
+
+/* link and hover effects */
+a {
+	text-decoration: none;
+}
+
+
+/* NAVIGATION BAR ------*/
+
+.navbar {
+  padding-top: 0.625em;
+  padding-right: 2%;
+  padding-bottom: 0.625em;
+  padding-left: 2%;
+}
+
+.navtext {
+  padding-top: 0.3125em;
+  color: #000;
+  font-family: 'Raleway', sans-serif;
+  font-size: 180%;
+}
+
+/* button detail */
+.btn {
+  padding: 0.625em 1.25em;
+  border: 0 none;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  
+}
+
+.btn.outline {
+	background: none;
+	padding: 0.5em 1.5625em;
+}
+
+btn-default.outline {
+	border: 2px solid #000;
+	color: #000;
+} 
+
+.btn.sharp {
+  border-radius:0;
+}
+
+/* ABOUT ----------------*/
+
+.round {
+  border-color: none;
+  border-width: 0px;
+  border-style: solid;
+  border-radius: 50%;
+}
+
+.primary-img {
+    float: left;
+    width: 45%;
+}
+
+.primary-content {
+    float: right;
+    width: 55%;
+    padding-left: 1.5625em;
+    padding-top: 1.25em;
+}
+
+/* PORTFOLIO ------------*/
+
+.portfolio-item { 
+    width: 100%;
+    padding-bottom: 0.625em;
+    margin-left: 10%;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: solid 1px #d9e4ea;
+}
+
+.col {
+    padding: 0.3125em;
+    margin: 0.3125em;
+}
+
+h5 {
+    width: 100%;
+    padding-bottom: 1.25em;
+    padding-top: 0.5em;
+    margin-left: 10%;
+    background-color: #F5FFFA;
+}
+
+/* CONTACT --------------*/
+
+/* design elements */
+.bright-text {
+  color: #fff;
+}
+
+.light {
+  color: #fff;
+}
+
+.line-lite {
+  max-width: 400px;
+  height: 3px;
+  color: #fff;
+  border-top: solid 3px;
+  border-bottom: solid 3px;
+}
+
+/* social media */
+.social-media {
+  list-style: none;
+  padding: 1.25em;
+}
+
+.social-media li {
+  display: inline;
+  margin: 1.25em;
+}
+
+.social-media li a {
+  display: inline-block;
+  width: 3.25em;
+  height: 3.25em;
+}
+
+#github, #codepen, #linkedin, #fcc, #instagram {
+  border-radius: 50%;
+  border: solid 2px #fff;
+  padding: 1em;
+  font-size: 1.125em;
+  color: #FFB90F;
+}
+
+/* contact info */
+.contact-info {
+  list-style: none;
+  padding: 1.25em;
+  font-family: 'Didact Gothic', sans-serif;
+}
+
+.contact-info li span {
+  display: inline-block;
+  margin-left: -0.4375em;    
+}
+
+#envelope, #phone {
+  padding: 0.3125em;
+  font-size: 135%;
+  color: #fff;
+}
+
+/* contact form elements */
+input[type=text] {
+    background-color: #fff;
+    color: white;
+    border-radius: 0;
+}
+
+input[type=text]:focus {
+    border: 3px solid #555;
+}
+
+input[type=email] {
+    background-color: #fff;
+    color: white;
+    border-radius: 0;
+}
+
+input[type=email]:focus {
+    border: 3px solid #000;
+}
+
+input[type=tel] {
+    background-color: #fff;
+    color: white;
+    border-radius: 0;
+}
+
+input[type=tel]:focus {
+    border: 3px solid #555;
+}
+
+/* footer */
+#footer {
+  background-color: #f0f0f0;
+  position:absolute;
+  width: 100%;
+  height: 2.5em;
+  padding: 0.3125em;
+  margin-bottom: -1px;
+}
+
+/* Media Queries --------*/
+
+@media (min-width: 769px) {
+    
+    .primary,
+    .secondary,
+    .tertiary {
+        width: 30%;
+        font-family: 'Didact Gothic', sans-serif;
+    }
+    
+    .col,
+    .secondary-content,
+    .contact-form {
+        float: left;
+    }
+    
+    .secondary-content {
+        width: 60%;
+    }
+    
+    .contact-form {
+        width:40%;
+    }
+    
+    .portfolio-item {
+        display: block;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    
+  /* about section */
+  .primary-img,
+  .primary-content {
+    float: none;
+    width: 100%;
+  }
+    
+  .primary-img {
+     padding-bottom: 2em;
+    }
+    
+  .primary-content {
+     padding-left: 0em;
+     padding-top: 0em;
+    }
+    
+  /* navigation */  
+  .navbar-header,
+  .navbar-nav {
+    text-align: center;
+  }
+    
+  /* porfolio section */  
+  .primary,
+  .secondary,
+  .tertiary {
+       float: none; 
+       width: 100%;
+      font-family: 'Didact Gothic', sans-serif;
+    }
+    
+    .portfolio-item { 
+        width: 100%;
+        padding-bottom: 0.625em;
+        margin-left: 0px;
+    }
+
+    .col {
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    h5 {
+        width: 100%;
+        padding-bottom: 1.25em;
+        margin-left: 0px;
+    }
+    
+    /* social media icons */
+    .social-media li a {
+        display: inline-block;
+        width: 3em; /* 3.25em */
+        height: 3em; /* 3.25em */
+    }
+    
+    .social-media {
+        list-style: none;
+        padding: 0.125em; /* 1.25em */
+    }
+
+    .social-media li {
+        display: inline;
+        margin: 0.5em; /* 1.25em */
+    }
+
+    #github, #codepen, #linkedin, #fcc, #instagram {
+       /* border-radius: 50%; */
+        border:solid 2px #fff;
+        padding: 1em; /* 1em */
+        font-size: 1.25em; /* 1.25em */
+        color: #FFB90F;
+    }
+    
+}
